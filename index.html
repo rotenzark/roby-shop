@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
 <title>Roby Shop — cura della scarpa e pelletteria dal 1966, Corso Vercelli Milano</title>
 <meta name="description" content="Roby Shop, dal 1966 in Via Cherubini 4 a Milano (Corso Vercelli): la cura della scarpa con centinaia di prodotti e riparazioni impeccabili, le cinture in pelle e coccodrillo tagliate a misura, la pelletteria. L'artigiano che fa durare le tue scarpe una vita. Chiama 02 498 0348.">
 <link rel="canonical" href="https://rotenzark.github.io/roby-shop/">
@@ -15,9 +16,7 @@
 <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="img/favicon-32.png" type="image/png" sizes="32x32">
 <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Karla:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="fonts/fonts.css?v=1">
 <link rel="stylesheet" href="css/styles.css?v=1">
 <script type="application/ld+json">
 {
@@ -31,24 +30,100 @@
       "telephone": "+39024980348",
       "priceRange": "€€",
       "description": "Bottega di cura della scarpa, riparazioni e pelletteria dal 1966 in Corso Vercelli, Milano: centinaia di prodotti per la cura, cinture in pelle e coccodrillo tagliate a misura.",
-      "address": { "@type": "PostalAddress", "streetAddress": "Via Francesco Cherubini 4", "addressLocality": "Milano", "postalCode": "20145", "addressCountry": "IT" },
-      "geo": { "@type": "GeoCoordinates", "latitude": 45.4669015, "longitude": 9.159762 },
-      "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.7", "reviewCount": "41", "bestRating": "5" },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Via Francesco Cherubini 4",
+        "addressLocality": "Milano",
+        "postalCode": "20145",
+        "addressCountry": "IT"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 45.4669015,
+        "longitude": 9.159762
+      },
       "openingHoursSpecification": [
-        { "@type": "OpeningHoursSpecification", "dayOfWeek": "Monday", "opens": "15:00", "closes": "19:30" },
-        { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "09:00", "closes": "13:00" },
-        { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "15:00", "closes": "19:30" },
-        { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "10:30", "closes": "19:00" }
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Monday",
+          "opens": "15:00",
+          "closes": "19:30"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "opens": "09:00",
+          "closes": "13:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "opens": "15:00",
+          "closes": "19:30"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "10:30",
+          "closes": "19:00"
+        }
       ]
     },
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "Fate riparazioni di scarpe?", "acceptedAnswer": { "@type": "Answer", "text": "Sì: tacchi, suole, cuciture, zip. E la cura completa con centinaia di prodotti specifici — lucidi, creme, spazzole — per far durare le tue scarpe una vita." } },
-        { "@type": "Question", "name": "Vendete cinture su misura?", "acceptedAnswer": { "@type": "Answer", "text": "Sì: cinture in pelle e in coccodrillo, tagliate a misura per te. Perfette anche come regalo. E ripariamo borse e pelletteria." } },
-        { "@type": "Question", "name": "Da quando esistete?", "acceptedAnswer": { "@type": "Answer", "text": "Dal 1966. Roby è un artigiano figlio d'arte, seconda generazione: consiglia sempre per il meglio, non per vendere." } },
-        { "@type": "Question", "name": "Che orari fate?", "acceptedAnswer": { "@type": "Answer", "text": "Lunedì 15:00–19:30; da martedì a sabato 09:00–13:00 e 15:00–19:30; domenica 10:30–19:00." } },
-        { "@type": "Question", "name": "Dove siete?", "acceptedAnswer": { "@type": "Answer", "text": "In Via Francesco Cherubini 4 a Milano, zona Corso Vercelli. Per informazioni chiama 02 498 0348." } }
+        {
+          "@type": "Question",
+          "name": "Fate riparazioni di scarpe?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sì: tacchi, suole, cuciture, zip. E la cura completa con centinaia di prodotti specifici — lucidi, creme, spazzole — per far durare le tue scarpe una vita."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Vendete cinture su misura?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sì: cinture in pelle e in coccodrillo, tagliate a misura per te. Perfette anche come regalo. E ripariamo borse e pelletteria."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Da quando esistete?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dal 1966. Roby è un artigiano figlio d'arte, seconda generazione: consiglia sempre per il meglio, non per vendere."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Che orari fate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lunedì 15:00–19:30; da martedì a sabato 09:00–13:00 e 15:00–19:30; domenica 10:30–19:00."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dove siete?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In Via Francesco Cherubini 4 a Milano, zona Corso Vercelli. Per informazioni chiama 02 498 0348."
+          }
+        }
       ]
     }
   ]
@@ -193,7 +268,7 @@
     </div>
     <div class="dove-media">
       <div class="mappa reveal">
-        <iframe title="Mappa: Roby Shop, Via Cherubini 4, Milano" src="https://www.google.com/maps?q=Roby+Shop,+Via+Cherubini+4,+20145+Milano&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+        <div class="mappa-clic" data-mappa-clic style="--mappa-h: 320px"><template><iframe title="Mappa: Roby Shop, Via Cherubini 4, Milano" src="https://www.google.com/maps?q=Roby+Shop,+Via+Cherubini+4,+20145+Milano&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></template><div class="mappa-clic__velo"><a class="mappa-clic__btn" href="https://www.google.com/maps/place/Roby+Shop/@45.4669015,9.159762,17z" target="_blank" rel="noopener">Mostra la mappa</a><p class="mappa-clic__nota">La mappa è di Google: aprendola, Google riceve il tuo indirizzo IP e può usare i suoi cookie.</p></div></div>
       </div>
     </div>
   </section>
@@ -216,6 +291,7 @@
   <p class="foot-brand">Roby Shop <span>dal 1966</span></p>
   <p data-i18n="foot.dove">Via Francesco Cherubini 4, 20145 Milano · <a href="tel:+39024980348">02 498 0348</a></p>
   <p class="foot-demo" data-i18n="foot.demo">Sito dimostrativo (concept) realizzato da Bespoke Studio con dati e foto pubblici — non è il sito ufficiale dell'attività.</p>
+  <p class="privacy-link"><a href="privacy.html">Privacy</a></p>
 </footer>
 
 <div class="actionbar" id="actionBar">
@@ -232,5 +308,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
 <script src="js/main.js?v=3" defer></script>
+<script src="js/mappa-clic.js?v=1" defer></script>
 </body>
 </html>
